@@ -3,12 +3,12 @@
 All monetary values are per insured farmer (one hectare), in Rp, for one six-month season.
 A season t proceeds as follows:
   1. Premiums are collected and operating expenses and the reinsurance premium are paid.
-  2. Capital above the Minimum Capital Requirement (MCR) can be lent to cooperatives (eq. 4).
+  2. Capital above the Minimum Capital Requirement (MCR) can be lent to cooperatives (eq. 6).
   3. Drought indicators are drawn for each index zone from a Gaussian or Student-t copula.
   4. Payouts are made from capital; the stop-loss reinsurer recovers the excess above the attachment.
   5. Loans mature: interest is earned on performing loans; defaulted principal is lost at LGD.
      Default rates depend on zone drought (conditional PD) and on a cooperative-level factor.
-  6. If capital is at least the MCR, investors receive their required return (eq. 3 condition).
+  6. If capital is at least the MCR, investors receive their required return (eq. 5 condition).
 Ruin is recorded when capital becomes negative (payouts cannot be met in full).
 """
 from __future__ import annotations
@@ -37,7 +37,7 @@ class Params:
     d1: float = 0.25            # default rate, drought season (conditional PD)
     lgd: float = 0.5
     rho_c: float = 0.0          # within-cooperative default correlation (Vasicek)
-    beta: float = 0.8           # share of capital above MCR that may be lent (eq. 4)
+    beta: float = 0.8           # share of capital above MCR that may be lent (eq. 6)
     k0: float = 1.0             # initial investor capital as share of C (or multiple of MCR if k0_mcr)
     k0_mcr: bool = False        # if True, initial capital = k0 * MCR
     coc: bool = False           # if True, premium includes investors' required return on initial capital
