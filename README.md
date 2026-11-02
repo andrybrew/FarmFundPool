@@ -21,7 +21,7 @@ Imported from the original repository by F.R. Lambey (`rivaldilambey22/Parametri
 
 ## Prototype versus model
 
-The deployed prototype implements a simplified version of the pool: a fixed reserve of 30 percent of total coverage, administrator-approved loans against cooperative collateral, a time-based staking reward, and a trigger evaluated as index value ≥ threshold (correct for an index expressed as a rainfall deficit). The reserve, yield, and lending rules of the article (equations 1 to 5, including the integrated capital floor) are evaluated by simulation in `analysis/` and are the specification for the next contract version.
+The deployed prototype implements a simplified version of the pool: a fixed reserve of 30 percent of total coverage, administrator-approved loans against cooperative collateral, a time-based staking reward, and a trigger evaluated as index value ≥ threshold (correct for an index expressed as a rainfall deficit). The reserve, yield, and lending rules of the article (equations 3 to 7, including the integrated capital floor) are evaluated by simulation in `analysis/` and are the specification for the next contract version.
 
 ## Reproducing the risk analysis
 
