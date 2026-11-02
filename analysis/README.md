@@ -9,7 +9,7 @@ Reproduces every number, table, and figure in Sections 3.1 and 5.2 to 5.6 of the
 
 ## Code (Python 3, numpy, pandas, scipy, matplotlib)
 1. `rain.py`, `freq.py`: seasonal totals, trigger frequencies, correlations, trends.
-2. `ffp_model.py`: the model (equations 2, 6, 7 of the manuscript), simulation, required-capital solver.
+2. `ffp_model.py`: the model (equations 1, 2, and 4 of the manuscript), simulation, required-capital solver.
 3. `experiments.py` (constants in `experiments_cfg.py`): Tables T1 to T10 in `results/`. Seed 20261026, 20,000 paths, 20 seasons.
 4. `t5fix.py`, `extra.py`: MCR diagnostics (T5) and ruin with capital at the MCR (T5b).
 5. `fig2.py`, `figs.py`, `figS.py`: figures.
