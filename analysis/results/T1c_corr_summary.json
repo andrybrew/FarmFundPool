@@ -1,0 +1,20 @@
+{
+ "all_mean": 0.42422252517150466,
+ "all_min": 0.050766657836759814,
+ "all_max": 0.9269930041700019,
+ "wj_mean": 0.7967203800047548,
+ "bandung_station_1in7": 0.0036102968619005833,
+ "bandung_station_1in7_hi": 0.5787231970431952,
+ "normals": {
+  "Bandung": 626.0,
+  "Indramayu": 848.0,
+  "Karawang": 806.0,
+  "Subang": 883.0,
+  "Cirebon": 1259.0,
+  "Sragen": 982.0,
+  "Ngawi": 882.0,
+  "Lamongan": 860.0,
+  "Sidrap": 740.0,
+  "LampungTengah": 964.0
+ }
+}
